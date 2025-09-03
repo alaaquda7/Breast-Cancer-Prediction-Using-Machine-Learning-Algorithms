@@ -37,21 +37,29 @@ Visual Results:
 📈 Accuracy :
 
 ![ResNet+KAN Accuracy](resnet_kan_accuracy.png.png)
+
 ![ViT Accuracy](vit_accuracy.png.png)
+
 ![ViT+KAN Accuracy](vit_kan_accuracy.png.png)
 
 
 
 🧮 Confusion Matrices
+
 ![ResNet+KAN Confusion Matrix](resnet_kan_confusion_matrix.png.png)
+
 ![ViT Confusion Matrix](vit_confusion_matrix.png.png)
+
 ![ViT+KAN Confusion Matrix](vit_kan_confusion_matrix.png.png)
 
 
 
 📊 Classification Report
+
 ![ResNet+KAN Classification Report](resnet_kan_classification_report.png.png)
+
 ![ViT Classification Report](vit_classification_report.png.png)
+
 ![ViT+KAN Classification Report](vit_kan_classification_report.png.png)
 
 

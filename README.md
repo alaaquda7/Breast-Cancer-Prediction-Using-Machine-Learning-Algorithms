@@ -1,10 +1,12 @@
 # 🩺 Breast-Cancer-Prediction-Using-Machine-Learning-Algorithms
 
-📌 Overview
+## 📌 Overview
 This project applies deep learning to breast cancer detection using MRI scans.
 It evaluates ResNet-50 v2, Vision Transformers (ViT), and Kolmogorov–Arnold Networks (KAN), and explores Hybrid models (ResNet+KAN, ViT+KAN) to deliver accurate, interpretable, and scalable AI support for diagnosis.
 
-🎯 Objectives
+By combining advanced architectures with KAN, the project focuses on not only high accuracy but also model explainability.
+
+## 🎯 Objectives
 
 •	🚀 Develop accurate deep learning models for medical image classification.
 
@@ -12,17 +14,23 @@ It evaluates ResNet-50 v2, Vision Transformers (ViT), and Kolmogorov–Arnold Ne
 
 •	⚡ Explore fusion with KAN to enhance explainability and performance.
 
-🛠️ Models Used
 
-•	ResNet-50: CNN-based model for feature extraction.
+## 🛠️ Models Used
 
-•	Vision Transformer (ViT): Transformer-based architecture for image classification.
+### 1️⃣ ResNet-50 + KAN
+**ResNet-50** is a CNN-based model widely used for feature extraction in images. 
+By fusing it with **KAN**, we gain **interpretability** through the spline-based network, which allows understanding how features contribute to the final decision. 
+This hybrid ensures that while ResNet extracts powerful features from MRI scans, KAN provides transparency in predictions.
 
-•	Kolmogorov-Arnold Networks (KAN): Spline-based model focusing on interpretability.
+### 2️⃣ Vision Transformer (ViT)
+**ViT** is a transformer-based architecture that captures **long-range dependencies** in images. 
+It divides MRI images into patches and processes them with self-attention mechanisms, which is highly effective for medical images where local and global context matters.
 
-•	Hybrid Models (ResNet+KAN, ViT+KAN): Combines strengths of both paradigms.
+### 3️⃣ ViT + KAN
+The hybrid **ViT+KAN** combines the **feature extraction power of ViT** with the **interpretability of KAN**. 
+This approach ensures high accuracy while providing insights into which patches and features contribute most to the model’s predictions.
 
-📊 Results
+## 📊 Results
 
 •	ResNet-50 + KAN: 63% Accuracy
 
@@ -34,7 +42,7 @@ It evaluates ResNet-50 v2, Vision Transformers (ViT), and Kolmogorov–Arnold Ne
 
 Visual Results:
 
-📈 Accuracy :
+### 📈 Accuracy Curves
 
 ![ResNet+KAN Accuracy](resnet_kan_accuracy.png.png)
 
@@ -44,7 +52,7 @@ Visual Results:
 
 
 
-🧮 Confusion Matrices
+### 🧮 Confusion Matrices
 
 ![ResNet+KAN Confusion Matrix](resnet_kan_confusion_matrix.png.png)
 
@@ -54,7 +62,7 @@ Visual Results:
 
 
 
-📊 Classification Report
+## 📊 Classification Report
 
 ![ResNet+KAN Classification Report](resnet_kan_classification_report.png.png)
 
@@ -65,7 +73,7 @@ Visual Results:
 
 
 
-📚 Dataset
+## 📚 Dataset
 
 A dataset containing 1,480 MRI images of breast cancer patients, classified into two categories: "healthy" and "diseased" (benign and malignant).
 
@@ -77,7 +85,8 @@ You can access the dataset here:
 
 ⚠️ Please note that the raw data is not uploaded to GitHub due to size and privacy restrictions.
 
-⚙️ Installation
+
+## ⚙️ Installation
 
 •	Clone the repository:
 
@@ -89,7 +98,7 @@ cd breast-cancer-detection
 
 pip install -r requirements.txt
 
-▶️ Usage
+## ▶️ Usage
 
 Example training commands:
 
@@ -99,7 +108,7 @@ python resnet_kan.py
 
 
 
-👨‍💻 Team
+## 👨‍💻 Team
 
 •	Alaa Qudah
 

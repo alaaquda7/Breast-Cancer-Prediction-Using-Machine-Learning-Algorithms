@@ -18,18 +18,32 @@ It evaluates ResNet-50 v2, Vision Transformers (ViT), and Kolmogorov–Arnold Ne
 📊 Results
 •	ResNet-50 + KAN: 63% Accuracy
 •	ViT + KAN: 93.10% Accuracy
+• ViT : 87.75% Accuracy
+
 •	✅ Hybrid models improved interpretability and overall performance.
 Visual Results:
-📈 Accuracy & Loss Curves
+📈 Accuracy :
+
+![ResNet+KAN Accuracy](results/resnet_kan_accuracy.png)
+![ViT Accuracy](results/vit_accuracy.png)
+![ViT+KAN Accuracy](results/vit_kan_accuracy.png)
 
 
 
 🧮 Confusion Matrices
+![ResNet+KAN Confusion Matrix](results/resnet_kan_confusion_matrix.png)
+![ViT Confusion Matrix](results/vit_confusion_matrix.png)
+![ViT+KAN Confusion Matrix](results/vit_kan_confusion_matrix.png)
 
-📊 Comparison Table
 
 
-(Place these files in results/ folder for images to display properly.)
+📊 Classification Report
+![ResNet+KAN Classification Report](results/resnet_kan_classification_report.png)
+![ViT Classification Report](results/vit_classification_report.png)
+![ViT+KAN Classification Report](results/vit_kan_classification_report.png)
+
+
+
 
 📚 Dataset
 A dataset containing 1,480 MRI images of breast cancer patients, classified into two categories: "healthy" and "diseased" (benign and malignant).

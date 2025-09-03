@@ -36,7 +36,7 @@ This approach ensures high accuracy while providing insights into which patches 
 
 
 
-### 📈 Accuracy Curves
+### 📈 Accuracy
 
 ![ResNet+KAN Accuracy](resnet_kan_accuracy.png.png)
 

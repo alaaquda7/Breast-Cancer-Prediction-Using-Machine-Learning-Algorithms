@@ -8,11 +8,7 @@ By combining advanced architectures with KAN, the project focuses on not only hi
 
 ## 🎯 Objectives
 
-•	🚀 Develop accurate deep learning models for medical image classification.
-
-•	🔍 Compare different architectures (ResNet, ViT, KAN).
-
-•	⚡ Explore fusion with KAN to enhance explainability and performance.
+The goal of this project is to design and evaluate deep learning models for early breast cancer detection using MRI scans. We set out to compare several advanced neural network architectures—including CNN, Vision Transformer (ViT), Kolmogorov–Arnold Networks (KAN), and ResNet—to determine their relative strengths. ,our work aims to enhance transparency and interpretability in model predictions. Ultimately, the objective is to deliver a system that reduces human error, assists healthcare professionals in decision-making, and demonstrates how AI can play a key role in improving early diagnosis and patient outcomes.
 
 
 ## 🛠️ Models Used
@@ -103,13 +99,27 @@ python resnet_kan.py
 
 ## 🚀 Future Work
 
-Experiment with more advanced ViT architectures.
+### Advanced Hyperparameter Tuning:
 
-Explore additional fusion methods with KAN.
+Explore spline degree, grid size, deeper widths, and regularization.
 
-Extend dataset for multi-class classification.
+ ### Clinical Collaboration:
 
-Implement Explainable AI visualizations for deeper interpretability.
+Compare predictions with radiologists.
+
+Build trust for real-world clinical use.
+
+### Explainability & Validation:
+
+Visualize spline activations and feature importance.
+
+Test models on external datasets (e.g., CBIS-DDSM).
+
+ ### Clinical Deployment :
+
+Optimize with ONNX, pruning, and quantization.
+
+Compare predictions with radiologists for trust.
 
 
 ## 👨‍💻 Team

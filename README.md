@@ -6,6 +6,11 @@ It evaluates ResNet-50 v2, Vision Transformers (ViT), and Kolmogorov–Arnold Ne
 
 By combining advanced architectures with KAN, the project focuses on not only high accuracy but also model explainability.
 
+
+## Problem Statement
+
+Breast cancer remains the most common cancer among women worldwide and one of the leading causes of death. Traditional diagnostic methods such as mammography, ultrasound, and biopsy suffer from significant limitations: they can produce false positives or false negatives, are invasive or highly operator-dependent, and often struggle in cases like dense breast tissue. While MRI offers higher sensitivity, it still requires computational support to reach its full potential. There is therefore a strong need for a reliable, non-invasive, and AI-based diagnostic approach that can improve both the accuracy and consistency of breast cancer detection while also providing interpretability to support clinical trust.
+
 ## 🎯 Objectives
 
 The goal of this project is to design and evaluate deep learning models for early breast cancer detection using MRI scans. We set out to compare several advanced neural network architectures—including CNN, Vision Transformer (ViT), Kolmogorov–Arnold Networks (KAN), and ResNet—to determine their relative strengths. ,our work aims to enhance transparency and interpretability in model predictions. Ultimately, the objective is to deliver a system that reduces human error, assists healthcare professionals in decision-making, and demonstrates how AI can play a key role in improving early diagnosis and patient outcomes.

@@ -51,5 +51,3 @@ python resnet_kan.py
 .Layan Al-Hiassat
 .Mai Al-Omari
 
-Al-Hiassat
-.Mai Al-Omari

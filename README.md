@@ -101,6 +101,16 @@ python vit_kan.py
 python resnet_kan.py
 
 
+## 🚀 Future Work
+
+Experiment with more advanced ViT architectures.
+
+Explore additional fusion methods with KAN.
+
+Extend dataset for multi-class classification.
+
+Implement Explainable AI visualizations for deeper interpretability.
+
 
 ## 👨‍💻 Team
 

@@ -34,7 +34,7 @@ This approach ensures high accuracy while providing insights into which patches 
 
 ![Accuracy](Results.moudel.png)
 
-Visual Results:
+
 
 ### 📈 Accuracy Curves
 

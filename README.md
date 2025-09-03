@@ -30,15 +30,9 @@ It divides MRI images into patches and processes them with self-attention mechan
 The hybrid **ViT+KAN** combines the **feature extraction power of ViT** with the **interpretability of KAN**. 
 This approach ensures high accuracy while providing insights into which patches and features contribute most to the model’s predictions.
 
-## 📊 Results
+## 📊 Results (All Models)
 
-•	ResNet-50 + KAN: 63% Accuracy
-
-•	ViT + KAN: 93.10% Accuracy
-
-• ViT : 87.75% Accuracy
-
-•	✅ Hybrid models improved interpretability and overall performance.
+![Accuracy](Results.moudel.png)
 
 Visual Results:
 
